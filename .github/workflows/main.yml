@@ -83,9 +83,9 @@ jobs:
           
           echo "| Metric    | Value |" >> "$report_path"
           echo "|-----------|-------|" >> "$report_path"
-          echo "| Precision | prr |" >> "$report_path"
-          echo "| Recall    | rrr |" >> "$report_path"
-          echo "| F1 Score  | f1 |" >> "$report_path"
+          echo "| Precision | $precision |" >> "$report_path"
+          echo "| Recall    | $recall |" >> "$report_path"
+          echo "| F1 Score  | $f1 |" >> "$report_path"
           echo "" >> "$report_path"
 
           echo "## Images" >> "$report_path"
